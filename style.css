@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,200;1,400&display=swap');
+*{
+    font-family: 'Josefin Sans', sans-serif;;
+}
+header{
+    background-color: #5b93a9;
+    z-index: 600;
+    height: 15%;
+    width: 100%;
+    position: fixed;
+    font-weight: 200;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    top: 4%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav li{
+    font-weight: 100;
+    font-size: 17px;
+    width:50%;
+}
+nav a{
+    color: rgb(185, 211, 218);
+    margin: 5px;
+    padding: 5px;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+a:hover{
+    text-decoration: none;
+    background-color:rgb(199, 227, 227) ;
+}
+main{
+    position: absolute;
+    width: 100%;
+}
+.opening{
+    background-image: linear-gradient(#5ba5c3 ,#dce8e6) ;
+    position: relative;
+    top: 28%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.avatar{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+.about{
+    padding-top: 5%;
+    padding-left: 26px;
+}
+.about p:first-letter{
+    font-size: 20px;
+    padding-left: 30px;
+}
+#proj{
+    margin-top: 90px;
+}
+#proj h2{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+#proj .card{
+    margin: 20px;
+}
+#contact{
+    margin-top: 100px;
+    height: 500px;
+    width: 700px;
+}
+#contact h2{
+    margin-bottom: 20px;
+}
+/* .submission{
+    color: #5ba5c3;
+    border-radius: 2px;
+    border-color: #5ba5c3;
+} */
+footer{
+    position: static;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    bottom: 0;
+    background-color: #acc1cd;
+    background-position: 20px;
+    text-align: center;
+    height: 20px;
+    width: 100%;
+    padding: 20;
+    transition: 0.3s;
+}
+
+.icons{
+    list-style-type: none; 
+}
+.fa:hover{
+    color: white;
+    column-gap: 5px;
+}
